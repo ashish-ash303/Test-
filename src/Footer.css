@@ -1,0 +1,46 @@
+.footer {
+  display: flex;
+  width: 100vw;
+  height: 60px;
+
+  background-color: #520144;
+  color: white;
+}
+.footer__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 40px;
+
+  align-items: center;
+  cursor: pointer;
+}
+.footer__icons > h2 {
+  margin-left: 25px;
+}
+.footer__icons > .MuiSvgIcon-root:hover {
+  color: blueviolet;
+}
+.footer__icons > .MuiSvgIcon-root {
+  margin-left: 10px;
+  padding-right: 20px;
+  justify-content: space-between;
+
+  cursor: pointer;
+}
+.footer__rights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 30px;
+  align-items: center;
+  flex: 1;
+}
+
+.footer__rights > .MuiSvgIcon-root {
+  margin-left: 800px !important;
+  cursor: pointer;
+}
+.footer__rights > .MuiSvgIcon-root:hover {
+  color: blueviolet;
+}

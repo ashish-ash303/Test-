@@ -1,0 +1,17 @@
+.app__img {
+  top: 0;
+  background: no-repeat;
+  background-position: center center;
+  width: 100vw;
+  height: 85vh;
+}
+.app__title {
+  position: relative;
+  background-color: #28012e;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2.5rem;
+  width: 100vw;
+}

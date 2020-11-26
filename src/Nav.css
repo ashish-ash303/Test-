@@ -1,0 +1,33 @@
+.nav {
+  width: 100vw;
+  height: 60px;
+  background-color: #280030;
+  color: white;
+}
+.nav__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav__logo > img {
+  height: 60px;
+  object-fit: contain;
+  margin-left: 50px;
+}
+.nav__logoh2 {
+  margin-left: 30px;
+}
+.nav__logoright {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50vw;
+}
+.nav__logoright > h2 {
+  padding: 10px;
+  cursor: pointer;
+}
+.nav__logoright > h2:hover {
+  cursor: pointer;
+  color: blueviolet;
+}
